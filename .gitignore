@@ -1,2 +1,5 @@
 .idea
 venv
+venv2
+code/__pycache__/
+.idea/misc.xml
