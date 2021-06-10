@@ -3,6 +3,19 @@ from plaas4u_app import playing
 
 
 class Tests(unittest.TestCase):
+    farm_1 = {
+        "Listing Number": "1"
+        , "Size (ha)": "200"
+        , "Price (Rand)": "100000"
+    }
+    # And another hypothetical farm
+    farm_2 = {
+        "Listing Number": "2"
+        , "Size (ha)": "300"
+        , "Price (Rand)": "150000"
+    }
+
+    all_farms = [farm_1, farm_2]
     def test_extract_float_should_work_with_commas(self):  # test method
         input_string = "423,543.34"
         expected_result = 423543.34
@@ -26,21 +39,21 @@ class Tests(unittest.TestCase):
         # Create some hypothetical farms
         # The braces {} are how create a dictionary in python
         # We don't need everything in this dictionary - just Size and Price really - but I added Listing Number too
-        farm_1 = {
-            "Listing Number": "1"
-            ,"Size (ha)": "200"
-            ,"Price (Rand)": "100000"
-        }
+        #farm_1 = {
+        #    "Listing Number": "1"
+        #    ,"Size (ha)": "200"
+        #    ,"Price (Rand)": "100000"
+        #}
         # And another hypothetical farm
-        farm_2 = {
-            "Listing Number": "2"
-            , "Size (ha)": "300"
-            , "Price (Rand)": "150000"
-        }
+        #farm_2 = {
+        #    "Listing Number": "2"
+        #    , "Size (ha)": "300"
+        #    , "Price (Rand)": "150000"
+        #}
 
         # Now put our two farms into a list
         # the square brackets denote a list
-        all_farms = [farm_1, farm_2]
+        #all_farms = [farm_1, farm_2]
 
         maximum_price = 120000
 
@@ -49,3 +62,10 @@ class Tests(unittest.TestCase):
         expected_result = [farm_1]
         actual_result = playing.filter_by_price(all_farms, maximum_price)
         self.assertEqual(actual_result, expected_result)
+
+    def test_filter_by_size_filters_out_small_farms(self):
+        minimum_size = 250
+        expected_result = [self.farm_2]
+        actual_result = playing.filter_by_size(self.all_farms, minimum_size)
+        self.assertEqual(actual_result, expected_result)
+
