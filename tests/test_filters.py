@@ -22,3 +22,8 @@ class Tests(unittest.TestCase):
         self.assertEqual(actual_result, expected_result)
 
     def test_filter_by_price_filters_out_expensive_farms(self): # test method
+        input_price = [float(x) for x in range(11)]
+        maximum_price = 8.0
+        expected_result = [float(x) for x in range (7)]
+        actual_result = playing.filter_by_price(input_price, maximum_price)
+        self.assertEqual(actual_result, expected_result)
