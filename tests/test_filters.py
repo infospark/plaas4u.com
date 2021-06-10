@@ -20,3 +20,5 @@ class Tests(unittest.TestCase):
         expected_result = 423543
         actual_result = playing.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
+
+    def test_filter_by_price_filters_out_expensive_farms(self): # test method
