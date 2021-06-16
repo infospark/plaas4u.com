@@ -6,13 +6,16 @@ import re
 
 
 def main():
+    original_list = get_farms_from_csv()
+    big_farms = filter_by_size(original_list, 30)
+    expensive_and_big_farms = filter_by_price(big_farms, 15000000)
+    for farm in expensive_and_big_farms:
+        print(farm)
+
+def get_farms_from_csv():
     with open('../data/Plaas4UListings.csv') as file:
         original_list = list(csv.DictReader(file))
-        big_farms = filter_by_size(original_list, 30)
-        expensive_and_big_farms = filter_by_price(big_farms, 15000000)
-        for farm in expensive_and_big_farms:
-            print(farm)
-
+        return original_list
 
 def extract_float_from_string(string_containing_number):
     return float(re.sub(r'[^.0-9]', "", string_containing_number))
