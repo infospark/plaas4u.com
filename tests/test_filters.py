@@ -1,5 +1,5 @@
 import unittest
-from plaas4u_app import playing
+from plaas4u_app import Farms
 
 
 class Tests(unittest.TestCase):
@@ -19,19 +19,19 @@ class Tests(unittest.TestCase):
     def test_extract_float_should_work_with_commas(self):  # test method
         input_string = "423,543.34"
         expected_result = 423543.34
-        actual_result = playing.extract_float_from_string(input_string)
+        actual_result = Farms.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
 
     def test_extract_float_should_work_with_round_numbers(self):  # test method
         input_string = "423543"
         expected_result = 423543
-        actual_result = playing.extract_float_from_string(input_string)
+        actual_result = Farms.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
 
     def test_extract_float_should_work_with_currency_symbols(self):  # test method
         input_string = "R 423,543.00"
         expected_result = 423543
-        actual_result = playing.extract_float_from_string(input_string)
+        actual_result = Farms.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
 
     def test_filter_by_price_filters_out_expensive_farms(self): # test method
@@ -60,12 +60,12 @@ class Tests(unittest.TestCase):
         # we expect the filter function to just return a list that only contains farm_1
         # as it was the only one under the specified price
         expected_result = [farm_1]
-        actual_result = playing.filter_by_price(all_farms, maximum_price)
+        actual_result = Farms.filter_by_price(all_farms, maximum_price)
         self.assertEqual(actual_result, expected_result)
 
     def test_filter_by_size_filters_out_small_farms(self):
         minimum_size = 250
         expected_result = [self.farm_2]
-        actual_result = playing.filter_by_size(self.all_farms, minimum_size)
+        actual_result = Farms.filter_by_size(self.all_farms, minimum_size)
         self.assertEqual(actual_result, expected_result)
 
