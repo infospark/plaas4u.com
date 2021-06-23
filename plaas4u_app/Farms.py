@@ -39,5 +39,9 @@ def filter_by_price(farms, maximum_price):
     return filtered_list
 
 
+def sort_by_key(farms, sort_key, reverse_sort=False):
+    return sorted(farms, key=lambda farm: extract_float_from_string(farm[sort_key]), reverse=reverse_sort)
+
+
 if __name__ == "__main__":
     main()
