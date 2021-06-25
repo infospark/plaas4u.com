@@ -88,3 +88,5 @@ class Tests(unittest.TestCase):
         sorted_farms = Farms.sort_by_key(self.all_farms, 'Price (Rand)', reverse_sort=True)
         self.assertTrue(sorted_farms[0]['Price (Rand)'] == '150000')
         self.assertTrue(sorted_farms[-1]['Price (Rand)'] == '100000')
+
+    def test_filter_by_min_and_max(selfs):
