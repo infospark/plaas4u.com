@@ -15,25 +15,27 @@ def main():
 #    for farm in expensive_and_big_farms:
 #        print(farm)
 
+
 def get_farms_from_csv():
     with open('../data/Plaas4UListings.csv') as file:
         original_list = list(csv.DictReader(file))
         return original_list
 
-def extract_float_from_string(string_containing_number):
-    return float(re.sub(r'[^.0-9]', "", string_containing_number))
 
-def filter_by_min(farms):
+def extract_float_from_string(param):
+    if param is None:
+        return 0
+    if type(param) == int or type(param) == float:
+        return param
+    else:
+        return float(re.sub(r'[^.0-9]', "", param))
+
+
+def filter_by_min_max(farms, column_input, minimum_key, maximum_key):
     filtered_list = []
-    column_input = input("Which column do you want to filter? ")
-    minimum_key = float(input("Please enter the minimum " + column_input + " value: "))
-    maximum_key = float(input("Please enter the maximum " + column_input + " value: "))
     for row in farms:
-        size = extract_float_from_string(row["Size (ha)"])
-        price = extract_float_from_string(row["Price (Rand)"])
-        if(size >= minimum_key and size <= maximum_key):
-            filtered_list.append(row)
-        elif(price >= minimum_key and price <= maximum_key):
+        value = extract_float_from_string(row[column_input])
+        if (value >= minimum_key and value <= maximum_key):
             filtered_list.append(row)
     return filtered_list
 
