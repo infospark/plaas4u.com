@@ -1,15 +1,14 @@
-from flask import Flask
+from flask import Flask, render_template
 from plaas4u_app import Farms
 app = Flask(__name__)
 
 @app.route('/')
-def root():
-    return '<h1>Hello, World!</h1>'
+def home():
+    return render_template('home.html')
 
-@app.route('/Test')
-@app.route('/test')
-def test():
-    return '<h1>This is a test.</h1>'
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/farms')
 def farms():
