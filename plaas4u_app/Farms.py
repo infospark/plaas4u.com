@@ -7,13 +7,8 @@ import re
 
 def main():
     original_list = get_farms_from_csv()
-    farm_list = filter_by_min(original_list)
-#    big_farms = filter_by_size(original_list, 30)
-#    expensive_and_big_farms = filter_by_price(big_farms, 15000000)
-    for farms in farm_list:
+    for farms in original_list:
         print(farms)
-#    for farm in expensive_and_big_farms:
-#        print(farm)
 
 
 def get_farms_from_csv():
