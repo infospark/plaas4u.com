@@ -16,10 +16,10 @@ def get_farms_from_csv():
         original_list = list(csv.DictReader(file))
         return original_list
 
-
-def extract_float_from_string(param):
-    if param is None:
-        return 0
+# TODO: Discuss this default value with Nico
+def extract_float_from_string(param, default_value=0):
+    if param is None or param == '':
+        return default_value
     if type(param) == int or type(param) == float:
         return param
     else:

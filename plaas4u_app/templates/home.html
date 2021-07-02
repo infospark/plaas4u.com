@@ -1,7 +1,19 @@
 {% extends "layout.html" %}
 {% block content %}
-  <div class="py-5 text-center">
+<div class="py-5 text-center">
     <h2>Plass4u</h2>
-    <p class="lead">Use the fields below to tell us what you're looking for. Our AI engine will search Property24 for your ideal farm!</p>
-  </div>
+    <p class="lead">Use the fields below to tell us what you're looking for. Our AI engine will search Property24 for
+        your ideal farm!</p>
+    <form method="post" action="search" >
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" name="min_size" placeholder="Minimum Size (Ha)">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" name="max_price" placeholder="Maximum Price (Rand)">
+            </div>
+        </div>
+        <button value="Submit" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 {% endblock %}

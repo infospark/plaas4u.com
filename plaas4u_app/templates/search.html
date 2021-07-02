@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="py-5 text-center">
+    <h2>Plass4u - Results</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 card-margin">
+                <div class="card card-margin">
+                    <div class="card-body p-0">
+
+                        <div class="result-body">
+                            <div class="table-responsive">
+                                <table class="table widget-26">
+                                    <tbody>
+
+                                    {% for farm in farm_list %}
+                                    <tr>
+                                        <td>
+                                            <div class="widget-26-listing_number">
+                                                <a href="{{farm["URL"]}}">
+                                                    <img class="widget-26-image" src="{{farm["Image URL"]}}"/>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="widget-26-address">
+                                                Listing: {{farm["Listing number"]}}<br/>
+                                                {{farm["Address"]}}<br/>
+                                                {{farm["Type of farm"]}}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="widget-26-size_ha">
+                                                {{farm["Size (ha)"]}} ha
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="widget-26-price_rand">
+                                                {{farm["Price (Rand)"]}}
+                                            </div>
+
+                                        </td>
+                                        <td>
+                                            <div class="widget-26-bedrooms">
+                                                {{farm["Bedrooms"]}} Bedrooms
+                                            </div>
+
+                                        </td>
+                                        <td>
+                                            <div class="widget-26-bathrooms">
+                                                {{farm["Bathrooms"]}} Bathrooms
+                                            </div>
+
+                                        </td>
+
+                                    </tr>
+
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
