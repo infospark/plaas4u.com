@@ -15,9 +15,9 @@ def search():
     # Get Max_Price - if there nothing there assume max price of 99999999
     max_price = Farms.extract_float_from_string(request.form["max_price"], 99999999)
 
-    # TODO: Discuss the way we keep reusing the farm_list here with Nico
     farm_list = Farms.filter_by_min_max(farm_list, "Size (ha)", min_size, 99999999)
-    farm_list = Farms.filter_by_min_max(farm_list, "Price (Rand)", 0, max_price)
+    # TODO: Also filter farm_list by max_price (column_input = Price (Rand))
+
     html = render_template('search.html', farm_list=farm_list)
     return html
 
