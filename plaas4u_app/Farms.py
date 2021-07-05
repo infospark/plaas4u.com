@@ -16,7 +16,7 @@ def get_farms_from_csv():
         original_list = list(csv.DictReader(file))
         return original_list
 
-# TODO: Nico, what does the =0 mean after the second parameter?  
+# TODO: Nico, what does the =0 mean after the second parameter?
 def extract_float_from_string(param, default_value=0):
     if param is None or param == '':
         return default_value
