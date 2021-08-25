@@ -29,16 +29,13 @@ class TestFiltersAndSorts(unittest.TestCase):
         big_farms = Farms.filter_by_min_max(self.all_farms, "Size (ha)", 2000, 9999)
         self.assertEqual(len(big_farms), 1)
 
-
     def test_filter_by_min_and_max_on_none_values(self):
         filtered_farms = Farms.filter_by_min_max(self.all_farms, "Bedrooms", 3, 99)
         self.assertEqual(len(filtered_farms), 1)
 
-
     def test_filter_by_min_and_max_on_missing_key(self):
         filtered_farms = Farms.filter_by_min_max(self.all_farms, "Wine Yield", 3, 99)
         self.assertEqual(len(filtered_farms), 1)
-
 
     def test_extract_float_should_work_with_commas(self):  # test method
         input_string = "423,543.34"
