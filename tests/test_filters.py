@@ -2,7 +2,7 @@ import unittest
 from plaas4u_app import Farms
 
 
-class Tests(unittest.TestCase):
+class TestFiltersAndSorts(unittest.TestCase):
     farm_1 = {
         "Listing Number": "1"
         , "Size (ha)": "200"
