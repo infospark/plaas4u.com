@@ -23,7 +23,11 @@ def extract_float_from_string(param, default_value=0):
     if type(param) == int or type(param) == float:
         return param
     else:
-        return float(re.sub(r'[^.0-9]', "", param))
+        numeric_only = (re.sub(r'[^.0-9]', "", param))
+        if len(numeric_only) == 0:
+            return default_value
+        else:
+            return float(re.sub(r'[^.0-9]', "", param))
 
 
 def filter_by_min_max(farms, column_input, minimum_key, maximum_key):

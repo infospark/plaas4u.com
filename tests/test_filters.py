@@ -84,3 +84,8 @@ class TestFiltersAndSorts(unittest.TestCase):
         self.assertTrue(sorted_farms[0]['Price (Rand)'] == '150000')
         self.assertTrue(sorted_farms[-1]['Price (Rand)'] == '100000')
 
+    def test_extract_float_should_work_with_only_alphas(self):  # test method
+        input_string = "Robbie"
+        expected_result = 0
+        actual_result = Farms.extract_float_from_string(input_string)
+        self.assertEqual(actual_result, expected_result)
