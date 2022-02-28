@@ -14,42 +14,55 @@
                                 <table class="table widget-26">
                                     <tbody>
 
-                                    {% for farm in farm_list %}
+                                    {% for key, farm in farm_list.items() %}
                                     <tr>
-                                        <td>
+                                        <td class="image_col">
                                             <div class="widget-26-listing_number">
-                                                <a href="{{farm["URL"]}}">
-                                                    <img class="widget-26-image" src="{{farm["Image URL"]}}"/>
+                                                <a href="{{farm['href']}}">
+                                                    <img class="widget-26-image" src="{{farm["listing_image"]}}"/>
                                                 </a>
                                             </div>
                                         </td>
-                                        <td>
+                                        <td class="listing_col">
                                             <div class="widget-26-address">
-                                                Listing: {{farm["Listing number"]}}<br/>
-                                                {{farm["Address"]}}<br/>
-                                                {{farm["Type of farm"]}}
+                                                <a href="{{farm['href']}}" style="color: black">
+                                                <h4>{{farm["about_title"]}}</h4>
+                                                Listing: {{key}}<br/>
+                                                {{farm["address"]}}
+                                                </a>
+                                                {% if 'computed_location' in farm %}
+                                                <br/>
+                                                <a target="_blank" href="https://maps.google.com/?q={{farm['computed_location'][0]}},{{farm['computed_location'][1]}}&ll={{farm['computed_location'][0]}},{{farm['computed_location'][1]}}&z=12">Approx Map Location</a>
+                                                {% endif %}
                                             </div>
                                         </td>
-                                        <td>
+                                        <td class="size_col">
                                             <div class="widget-26-size_ha">
-                                                {{farm["Size (ha)"]}} ha
+                                                {{farm["size"]["hectares"]}} hectares
                                             </div>
                                         </td>
-                                        <td>
+                                        <td class="price_col">
                                             <div class="widget-26-price_rand">
-                                                {{farm["Price (Rand)"]}}
+                                                R{{'{:,}'.format(farm["price"]["rand"])}}
                                             </div>
 
                                         </td>
-                                        <td>
-                                            <div class="widget-26-bedrooms">
-                                                {{farm["Bedrooms"]}} Bedrooms
-                                            </div>
 
-                                        </td>
-                                        <td>
-                                            <div class="widget-26-bathrooms">
-                                                {{farm["Bathrooms"]}} Bathrooms
+                                        <td class="type_col">
+                                            <div class="widget-26-price_rand">
+                                                {% if 'wine' in farm %}
+                                                    <p>Wine Farm</p>
+                                                    {% if 'hectares' in farm["wine"] %}
+                                                    <p>{{farm["wine"]["hectares"]}} hectares of vines</p>
+                                                    {% endif %}
+                                                    {% if 'tonne' in farm["wine"] %}
+                                                    <p>{{farm["wine"]["tonne"]}} tonnes of grapes produced</p>
+                                                    {% endif %}
+                                                    {% if 'type' in farm["wine"] %}
+                                                    <p>{{farm["wine"]["type"]}} produced</p>
+                                                    {% endif %}
+
+                                                {% endif %}
                                             </div>
 
                                         </td>

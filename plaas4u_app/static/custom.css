@@ -75,3 +75,23 @@ footer {
     width: 100px;
     height: 70px;
 }
+
+.image_col {
+    width: 10%
+}
+
+.listing_col {
+    width: 40%
+}
+
+.size_col {
+    width: 15%
+}
+
+.price_col {
+    width: 15%
+}
+
+.widget-26-address {
+    text-align: left;
+}

@@ -5,7 +5,7 @@
     <p class="lead">Use the fields below to tell us what you're looking for. Our AI engine will search Property24 for
         your ideal farm!</p>
     <form method="post" action="search" >
-        <div class="row">
+        <div class="row form-group">
             <div class="col">
                 <input type="text" class="form-control" name="min_size" placeholder="Minimum Size (Ha)">
             </div>
@@ -13,7 +13,31 @@
                 <input type="text" class="form-control" name="max_price" placeholder="Maximum Price (Rand)">
             </div>
         </div>
+        <div class="row form-group">
+            <div class="col">
+                <input type="checkbox" id="has_wine" name="has_wine" label="Has Vineyards">
+                <label for="has_wine" class="checkbox-inline">Wine Farm</label>
+            </div>
+
+            <div class="col">
+                <input type="text" class="form-control wine" name="min_ha_to_wine" placeholder="Minimum Ha Planted To Wine">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col">
         <button value="Submit" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
     </form>
 </div>
+
+<script>
+    $('#has_wine').click(function () {
+    var checked = this.checked;
+    console.log(checked);
+    $('.wine').each(function () {
+        $(this).prop('disabled', !checked);
+    });
+});
+</script>
 {% endblock %}

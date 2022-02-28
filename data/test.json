@@ -1,0 +1,2504 @@
+{
+  "q1_how_much": [
+    {
+      "text": "$1 billion",
+      "probability": [
+        0
+      ],
+      "start_logit": -0.0011946642771363258,
+      "end_logit": -1.0847249541257042e-05,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "1 billion",
+      "probability": [
+        1
+      ],
+      "start_logit": -7.239983558654785,
+      "end_logit": -0.0012556264409795403,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "billion",
+      "probability": [
+        2
+      ],
+      "start_logit": -8.988970756530762,
+      "end_logit": -0.003472669515758753,
+      "start_index": 5,
+      "end_index": 5
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        3
+      ],
+      "start_logit": -10.550368309020996,
+      "end_logit": -1.2220479249954224,
+      "start_index": 3,
+      "end_index": 8
+    },
+    {
+      "text": "$1",
+      "probability": [
+        4
+      ],
+      "start_logit": -0.0011946642771363258,
+      "end_logit": -11.982230186462402,
+      "start_index": 4,
+      "end_index": 4
+    },
+    {
+      "text": "inject $1 billion",
+      "probability": [
+        5
+      ],
+      "start_logit": -10.550368309020996,
+      "end_logit": -1.550492763519287,
+      "start_index": 3,
+      "end_index": 5
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        6
+      ],
+      "start_logit": -10.550368309020996,
+      "end_logit": -1.574307918548584,
+      "start_index": 3,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        7
+      ],
+      "start_logit": -11.072931289672852,
+      "end_logit": -1.0808264017105103,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d",
+      "probability": [
+        8
+      ],
+      "start_logit": -10.550368309020996,
+      "end_logit": -2.3777871131896973,
+      "start_index": 3,
+      "end_index": 7
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        9
+      ],
+      "start_logit": -11.072931289672852,
+      "end_logit": -1.9096695184707642,
+      "start_index": 0,
+      "end_index": 8
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        10
+      ],
+      "start_logit": -0.0011946642771363258,
+      "end_logit": -12.991286277770996,
+      "start_index": 4,
+      "end_index": 8
+    },
+    {
+      "text": "will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        11
+      ],
+      "start_logit": -12.254843711853027,
+      "end_logit": -1.161329746246338,
+      "start_index": 2,
+      "end_index": 13
+    },
+    {
+      "text": "$",
+      "probability": [
+        12
+      ],
+      "start_logit": -0.0011946642771363258,
+      "end_logit": -13.438858985900879,
+      "start_index": 4,
+      "end_index": 4
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        13
+      ],
+      "start_logit": -12.14254093170166,
+      "end_logit": -1.3492040634155273,
+      "start_index": 1,
+      "end_index": 13
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        14
+      ],
+      "start_logit": -12.14254093170166,
+      "end_logit": -1.6149954795837402,
+      "start_index": 1,
+      "end_index": 8
+    },
+    {
+      "text": "extraordinary\u201d capitalization",
+      "probability": [
+        15
+      ],
+      "start_logit": -12.402682304382324,
+      "end_logit": -1.380692720413208,
+      "start_index": 7,
+      "end_index": 8
+    },
+    {
+      "text": "will inject $1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        16
+      ],
+      "start_logit": -12.254843711853027,
+      "end_logit": -1.5790197849273682,
+      "start_index": 2,
+      "end_index": 8
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d",
+      "probability": [
+        17
+      ],
+      "start_logit": -11.072931289672852,
+      "end_logit": -2.814620018005371,
+      "start_index": 0,
+      "end_index": 7
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        18
+      ],
+      "start_logit": -11.072931289672852,
+      "end_logit": -2.8520359992980957,
+      "start_index": 0,
+      "end_index": 34
+    }
+  ],
+  "q1_who": [
+    {
+      "text": "Chile\u2019s government",
+      "probability": [
+        0
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -0.0005348646081984043,
+      "start_index": 0,
+      "end_index": 1
+    },
+    {
+      "text": "Finance Minister Felipe Larrain",
+      "probability": [
+        1
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -0.13262584805488586,
+      "start_index": 28,
+      "end_index": 31
+    },
+    {
+      "text": "Felipe Larrain",
+      "probability": [
+        2
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -0.2246885448694229,
+      "start_index": 30,
+      "end_index": 31
+    },
+    {
+      "text": "government",
+      "probability": [
+        3
+      ],
+      "start_logit": -6.91674280166626,
+      "end_logit": -0.004267529118806124,
+      "start_index": 1,
+      "end_index": 1
+    },
+    {
+      "text": "Finance Minister",
+      "probability": [
+        4
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -2.5780537128448486,
+      "start_index": 28,
+      "end_index": 29
+    },
+    {
+      "text": "Minister Felipe Larrain",
+      "probability": [
+        5
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -0.29232850670814514,
+      "start_index": 29,
+      "end_index": 31
+    },
+    {
+      "text": "Chile\u2019s",
+      "probability": [
+        6
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -8.164033889770508,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Finance Minister Felipe",
+      "probability": [
+        7
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -3.694542407989502,
+      "start_index": 28,
+      "end_index": 30
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        8
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -8.911141395568848,
+      "start_index": 0,
+      "end_index": 31
+    },
+    {
+      "text": "Minister",
+      "probability": [
+        9
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -1.8481765985488892,
+      "start_index": 29,
+      "end_index": 29
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        10
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -0.8395273685455322,
+      "start_index": 10,
+      "end_index": 31
+    },
+    {
+      "text": "Felipe",
+      "probability": [
+        11
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -3.1419894695281982,
+      "start_index": 30,
+      "end_index": 30
+    },
+    {
+      "text": "Chile",
+      "probability": [
+        12
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -9.71762752532959,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Finance",
+      "probability": [
+        13
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -5.252272129058838,
+      "start_index": 28,
+      "end_index": 28
+    },
+    {
+      "text": "Larrain",
+      "probability": [
+        14
+      ],
+      "start_logit": -9.967655181884766,
+      "end_logit": -0.1878974437713623,
+      "start_index": 31,
+      "end_index": 31
+    },
+    {
+      "text": "Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        15
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -5.580708980560303,
+      "start_index": 28,
+      "end_index": 34
+    },
+    {
+      "text": "Minister Felipe",
+      "probability": [
+        16
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -2.9997718334198,
+      "start_index": 29,
+      "end_index": 30
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        17
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -10.638344764709473,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister",
+      "probability": [
+        18
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -2.2559621334075928,
+      "start_index": 10,
+      "end_index": 29
+    },
+    {
+      "text": "state-owned copper miner Codelco",
+      "probability": [
+        19
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -2.286548376083374,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        20
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -2.337726593017578,
+      "start_index": 10,
+      "end_index": 34
+    },
+    {
+      "text": "s government",
+      "probability": [
+        21
+      ],
+      "start_logit": -11.210803985595703,
+      "end_logit": -0.018513504415750504,
+      "start_index": 0,
+      "end_index": 1
+    },
+    {
+      "text": "Finance Minister Felipe La",
+      "probability": [
+        22
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -6.599607467651367,
+      "start_index": 28,
+      "end_index": 31
+    },
+    {
+      "text": "Finance Minister Felipe Larra",
+      "probability": [
+        23
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -6.784837245941162,
+      "start_index": 28,
+      "end_index": 31
+    },
+    {
+      "text": "state",
+      "probability": [
+        24
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -3.01517653465271,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe",
+      "probability": [
+        25
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -3.1484758853912354,
+      "start_index": 10,
+      "end_index": 30
+    },
+    {
+      "text": "Finance Minister Felipe Larrain said",
+      "probability": [
+        26
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -7.010543346405029,
+      "start_index": 28,
+      "end_index": 32
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019",
+      "probability": [
+        27
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -11.76154899597168,
+      "start_index": 0,
+      "end_index": 20
+    },
+    {
+      "text": "Felipe Larrain said on Friday.",
+      "probability": [
+        28
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -5.400753021240234,
+      "start_index": 30,
+      "end_index": 34
+    },
+    {
+      "text": "state-owned",
+      "probability": [
+        29
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -3.3000805377960205,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        30
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -3.3167641162872314,
+      "start_index": 10,
+      "end_index": 34
+    },
+    {
+      "text": "Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        31
+      ],
+      "start_logit": -4.729201316833496,
+      "end_logit": -7.142162322998047,
+      "start_index": 28,
+      "end_index": 34
+    },
+    {
+      "text": "in",
+      "probability": [
+        32
+      ],
+      "start_logit": -11.657443046569824,
+      "end_logit": -0.5160712599754333,
+      "start_index": 31,
+      "end_index": 31
+    },
+    {
+      "text": "Chile\u2019s government will",
+      "probability": [
+        33
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -12.266154289245605,
+      "start_index": 0,
+      "end_index": 2
+    },
+    {
+      "text": "Minister Felipe Larrain said on Friday.",
+      "probability": [
+        34
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -4.854803562164307,
+      "start_index": 29,
+      "end_index": 34
+    },
+    {
+      "text": "Felipe La",
+      "probability": [
+        35
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -5.990432262420654,
+      "start_index": 30,
+      "end_index": 31
+    },
+    {
+      "text": "Codelco",
+      "probability": [
+        36
+      ],
+      "start_logit": -11.146556854248047,
+      "end_logit": -1.3135679960250854,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance",
+      "probability": [
+        37
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -4.210285186767578,
+      "start_index": 10,
+      "end_index": 28
+    },
+    {
+      "text": "Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        38
+      ],
+      "start_logit": -11.146556854248047,
+      "end_logit": -1.6164785623550415,
+      "start_index": 13,
+      "end_index": 31
+    },
+    {
+      "text": "Felipe Larra",
+      "probability": [
+        39
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -6.428234577178955,
+      "start_index": 30,
+      "end_index": 31
+    },
+    {
+      "text": "\u2019s government",
+      "probability": [
+        40
+      ],
+      "start_logit": -11.634066581726074,
+      "end_logit": -1.212285041809082,
+      "start_index": 0,
+      "end_index": 1
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said",
+      "probability": [
+        41
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -4.360624313354492,
+      "start_index": 10,
+      "end_index": 32
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        42
+      ],
+      "start_logit": -11.634066581726074,
+      "end_logit": -1.279588222503662,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        43
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -12.969827651977539,
+      "start_index": 0,
+      "end_index": 34
+    },
+    {
+      "text": "Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        44
+      ],
+      "start_logit": -11.146556854248047,
+      "end_logit": -1.8468838930130005,
+      "start_index": 13,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said",
+      "probability": [
+        45
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -13.128697395324707,
+      "start_index": 0,
+      "end_index": 32
+    },
+    {
+      "text": "Friday.",
+      "probability": [
+        46
+      ],
+      "start_logit": -11.727241516113281,
+      "end_logit": -1.5791059732437134,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "text": "Felipe Larrain said",
+      "probability": [
+        47
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -6.950389385223389,
+      "start_index": 30,
+      "end_index": 32
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        48
+      ],
+      "start_logit": -11.634066581726074,
+      "end_logit": -1.72201406955719,
+      "start_index": 0,
+      "end_index": 31
+    },
+    {
+      "text": "Felipe Larrain said on Friday",
+      "probability": [
+        49
+      ],
+      "start_logit": -6.392118453979492,
+      "end_logit": -6.999769687652588,
+      "start_index": 30,
+      "end_index": 34
+    },
+    {
+      "text": "Minister Felipe La",
+      "probability": [
+        50
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -5.982469081878662,
+      "start_index": 29,
+      "end_index": 31
+    },
+    {
+      "text": "copper miner Codelco",
+      "probability": [
+        51
+      ],
+      "start_logit": -12.388269424438477,
+      "end_logit": -1.276082158088684,
+      "start_index": 11,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines,",
+      "probability": [
+        52
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -5.165268898010254,
+      "start_index": 10,
+      "end_index": 27
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister",
+      "probability": [
+        53
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -13.68256950378418,
+      "start_index": 0,
+      "end_index": 29
+    },
+    {
+      "text": "Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        54
+      ],
+      "start_logit": -11.146556854248047,
+      "end_logit": -2.554802417755127,
+      "start_index": 13,
+      "end_index": 34
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company",
+      "probability": [
+        55
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -5.196181297302246,
+      "start_index": 10,
+      "end_index": 20
+    },
+    {
+      "text": "state-owned copper miner",
+      "probability": [
+        56
+      ],
+      "start_logit": -8.51302719116211,
+      "end_logit": -5.208098411560059,
+      "start_index": 10,
+      "end_index": 12
+    },
+    {
+      "text": "Friday",
+      "probability": [
+        57
+      ],
+      "start_logit": -11.727241516113281,
+      "end_logit": -2.0746216773986816,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019",
+      "probability": [
+        58
+      ],
+      "start_logit": -0.013288562186062336,
+      "end_logit": -13.830820083618164,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Minister Felipe Larrain said on Friday",
+      "probability": [
+        59
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -6.404674053192139,
+      "start_index": 29,
+      "end_index": 34
+    },
+    {
+      "text": "lco",
+      "probability": [
+        60
+      ],
+      "start_logit": -12.696683883666992,
+      "end_logit": -1.202239751815796,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "Minister Felipe Larra",
+      "probability": [
+        61
+      ],
+      "start_logit": -7.486386299133301,
+      "end_logit": -6.438978672027588,
+      "start_index": 29,
+      "end_index": 31
+    },
+    {
+      "text": ".",
+      "probability": [
+        62
+      ],
+      "start_logit": -12.203222274780273,
+      "end_logit": -1.7591650485992432,
+      "start_index": 34,
+      "end_index": 34
+    }
+  ],
+  "question3": [
+    {
+      "text": "Codelco",
+      "probability": [
+        0
+      ],
+      "start_logit": -0.025532489642500877,
+      "end_logit": -2.205207056249492e-05,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco",
+      "probability": [
+        1
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -0.032218992710113525,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner Codelco",
+      "probability": [
+        2
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -0.056302983313798904,
+      "start_index": 11,
+      "end_index": 13
+    },
+    {
+      "text": "Chile",
+      "probability": [
+        3
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -0.6140841841697693,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "miner Codelco",
+      "probability": [
+        4
+      ],
+      "start_logit": -7.468019485473633,
+      "end_logit": -0.020147228613495827,
+      "start_index": 12,
+      "end_index": 13
+    },
+    {
+      "text": "into state-owned copper miner Codelco",
+      "probability": [
+        5
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -0.08978470414876938,
+      "start_index": 9,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner",
+      "probability": [
+        6
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -4.313676834106445,
+      "start_index": 10,
+      "end_index": 12
+    },
+    {
+      "text": "owned copper miner Codelco",
+      "probability": [
+        7
+      ],
+      "start_logit": -8.523455619812012,
+      "end_logit": -0.06519244611263275,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner",
+      "probability": [
+        8
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -3.782930374145508,
+      "start_index": 11,
+      "end_index": 12
+    },
+    {
+      "text": "state-owned copper",
+      "probability": [
+        9
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -5.030373573303223,
+      "start_index": 10,
+      "end_index": 11
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        10
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -2.8985819816589355,
+      "start_index": 0,
+      "end_index": 27
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        11
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.0875754356384277,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper",
+      "probability": [
+        12
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.218536138534546,
+      "start_index": 0,
+      "end_index": 11
+    },
+    {
+      "text": "copper",
+      "probability": [
+        13
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -4.310689449310303,
+      "start_index": 11,
+      "end_index": 11
+    },
+    {
+      "text": "Chile\u2019s",
+      "probability": [
+        14
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.42561674118042,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        15
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.5199551582336426,
+      "start_index": 0,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019s government",
+      "probability": [
+        16
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.713388681411743,
+      "start_index": 0,
+      "end_index": 1
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company",
+      "probability": [
+        17
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.7161152362823486,
+      "start_index": 0,
+      "end_index": 20
+    },
+    {
+      "text": "state-owned",
+      "probability": [
+        18
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -5.936308860778809,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "state-owned copper miner Codelco as",
+      "probability": [
+        19
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -6.00671911239624,
+      "start_index": 10,
+      "end_index": 14
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner",
+      "probability": [
+        20
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -3.929861545562744,
+      "start_index": 0,
+      "end_index": 12
+    },
+    {
+      "text": "lco",
+      "probability": [
+        21
+      ],
+      "start_logit": -10.320494651794434,
+      "end_logit": -0.01394931972026825,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Code",
+      "probability": [
+        22
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -6.337168216705322,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned",
+      "probability": [
+        23
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -4.193843841552734,
+      "start_index": 0,
+      "end_index": 10
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion",
+      "probability": [
+        24
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -4.457120418548584,
+      "start_index": 0,
+      "end_index": 5
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines,",
+      "probability": [
+        25
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -4.466002464294434,
+      "start_index": 0,
+      "end_index": 27
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        26
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -0.8374742269515991,
+      "start_index": 3,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state",
+      "probability": [
+        27
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -4.683901786804199,
+      "start_index": 0,
+      "end_index": 10
+    },
+    {
+      "text": "capitalization into state-owned copper miner Codelco",
+      "probability": [
+        28
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -0.7776612043380737,
+      "start_index": 8,
+      "end_index": 13
+    },
+    {
+      "text": "into state-owned copper miner",
+      "probability": [
+        29
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -3.673168659210205,
+      "start_index": 9,
+      "end_index": 12
+    },
+    {
+      "text": "copper miner Code",
+      "probability": [
+        30
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -5.86361026763916,
+      "start_index": 11,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner Codelco as",
+      "probability": [
+        31
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -5.928444862365723,
+      "start_index": 11,
+      "end_index": 14
+    },
+    {
+      "text": "state",
+      "probability": [
+        32
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -7.1079630851745605,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "Chile\u2019",
+      "probability": [
+        33
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -5.007786750793457,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        34
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -5.068305969238281,
+      "start_index": 0,
+      "end_index": 31
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as",
+      "probability": [
+        35
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -5.284811019897461,
+      "start_index": 0,
+      "end_index": 14
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into",
+      "probability": [
+        36
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -5.310500144958496,
+      "start_index": 0,
+      "end_index": 9
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        37
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -1.2266160249710083,
+      "start_index": 1,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019",
+      "probability": [
+        38
+      ],
+      "start_logit": -6.303240776062012,
+      "end_logit": -5.505578994750977,
+      "start_index": 0,
+      "end_index": 20
+    },
+    {
+      "text": "into state-owned copper",
+      "probability": [
+        39
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -4.404011249542236,
+      "start_index": 9,
+      "end_index": 11
+    },
+    {
+      "text": "will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        40
+      ],
+      "start_logit": -10.914132118225098,
+      "end_logit": -1.0094494819641113,
+      "start_index": 2,
+      "end_index": 13
+    },
+    {
+      "text": "into state-owned copper miner Codelco as",
+      "probability": [
+        41
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -4.6024980545043945,
+      "start_index": 9,
+      "end_index": 14
+    },
+    {
+      "text": "Code",
+      "probability": [
+        42
+      ],
+      "start_logit": -0.025532489642500877,
+      "end_logit": -12.026772499084473,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "miner",
+      "probability": [
+        43
+      ],
+      "start_logit": -7.468019485473633,
+      "end_logit": -4.639488220214844,
+      "start_index": 12,
+      "end_index": 12
+    },
+    {
+      "text": "owned copper miner",
+      "probability": [
+        44
+      ],
+      "start_logit": -8.523455619812012,
+      "end_logit": -3.6696629524230957,
+      "start_index": 10,
+      "end_index": 12
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        45
+      ],
+      "start_logit": -11.436902046203613,
+      "end_logit": -0.7991340756416321,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        46
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -8.262962341308594,
+      "start_index": 10,
+      "end_index": 34
+    },
+    {
+      "text": "extraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        47
+      ],
+      "start_logit": -10.541522026062012,
+      "end_logit": -1.92343270778656,
+      "start_index": 7,
+      "end_index": 13
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        48
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -2.2720389366149902,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "Codelco as",
+      "probability": [
+        49
+      ],
+      "start_logit": -0.025532489642500877,
+      "end_logit": -12.614480018615723,
+      "start_index": 13,
+      "end_index": 14
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        50
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -2.4631190299987793,
+      "start_index": 4,
+      "end_index": 13
+    },
+    {
+      "text": "ization into state-owned copper miner Codelco",
+      "probability": [
+        51
+      ],
+      "start_logit": -11.544472694396973,
+      "end_logit": -1.1972663402557373,
+      "start_index": 8,
+      "end_index": 13
+    },
+    {
+      "text": "into state-owned",
+      "probability": [
+        52
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -5.374181747436523,
+      "start_index": 9,
+      "end_index": 10
+    },
+    {
+      "text": "owned copper",
+      "probability": [
+        53
+      ],
+      "start_logit": -8.523455619812012,
+      "end_logit": -4.323995590209961,
+      "start_index": 10,
+      "end_index": 11
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        54
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -2.6194841861724854,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "state-",
+      "probability": [
+        55
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -8.771961212158203,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        56
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -2.8443045616149902,
+      "start_index": 3,
+      "end_index": 34
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        57
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -2.6250791549682617,
+      "start_index": 1,
+      "end_index": 34
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        58
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -2.78525447845459,
+      "start_index": 4,
+      "end_index": 27
+    },
+    {
+      "text": "into state-owned copper miner Code",
+      "probability": [
+        59
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -5.686844825744629,
+      "start_index": 9,
+      "end_index": 13
+    },
+    {
+      "text": "\u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        60
+      ],
+      "start_logit": -11.510972023010254,
+      "end_logit": -1.600946068763733,
+      "start_index": 7,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        61
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -8.988094329833984,
+      "start_index": 10,
+      "end_index": 27
+    },
+    {
+      "text": "extraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        62
+      ],
+      "start_logit": -10.541522026062012,
+      "end_logit": -2.6314544677734375,
+      "start_index": 7,
+      "end_index": 34
+    },
+    {
+      "text": "copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        63
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -7.907331943511963,
+      "start_index": 11,
+      "end_index": 34
+    },
+    {
+      "text": "government",
+      "probability": [
+        64
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -2.7717366218566895,
+      "start_index": 1,
+      "end_index": 1
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as",
+      "probability": [
+        65
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -3.2529520988464355,
+      "start_index": 3,
+      "end_index": 14
+    },
+    {
+      "text": "$1 billion",
+      "probability": [
+        66
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -3.1368913650512695,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines,",
+      "probability": [
+        67
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -9.275144577026367,
+      "start_index": 10,
+      "end_index": 27
+    },
+    {
+      "text": "into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        68
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -5.981000900268555,
+      "start_index": 9,
+      "end_index": 34
+    },
+    {
+      "text": "capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        69
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -3.1487255096435547,
+      "start_index": 8,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        70
+      ],
+      "start_logit": -11.043570518493652,
+      "end_logit": -2.415499687194824,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        71
+      ],
+      "start_logit": -10.914132118225098,
+      "end_logit": -2.5759778022766113,
+      "start_index": 2,
+      "end_index": 34
+    },
+    {
+      "text": "extraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        72
+      ],
+      "start_logit": -10.541522026062012,
+      "end_logit": -2.9698143005371094,
+      "start_index": 7,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        73
+      ],
+      "start_logit": -11.043570518493652,
+      "end_logit": -2.4906907081604004,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "into state",
+      "probability": [
+        74
+      ],
+      "start_logit": -7.420722961425781,
+      "end_logit": -6.170248508453369,
+      "start_index": 9,
+      "end_index": 10
+    },
+    {
+      "text": "miner Code",
+      "probability": [
+        75
+      ],
+      "start_logit": -7.468019485473633,
+      "end_logit": -6.125386714935303,
+      "start_index": 12,
+      "end_index": 13
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner",
+      "probability": [
+        76
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -3.1954164505004883,
+      "start_index": 1,
+      "end_index": 12
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        77
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -9.496622085571289,
+      "start_index": 10,
+      "end_index": 34
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        78
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -3.5234036445617676,
+      "start_index": 3,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        79
+      ],
+      "start_logit": -11.043570518493652,
+      "end_logit": -2.5953712463378906,
+      "start_index": 4,
+      "end_index": 27
+    },
+    {
+      "text": "capitalization into state-owned copper miner",
+      "probability": [
+        80
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -3.3638625144958496,
+      "start_index": 8,
+      "end_index": 12
+    },
+    {
+      "text": "capitalization into state-owned copper miner Codelco as",
+      "probability": [
+        81
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -3.3684678077697754,
+      "start_index": 8,
+      "end_index": 14
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        82
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -3.5686302185058594,
+      "start_index": 3,
+      "end_index": 27
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines,",
+      "probability": [
+        83
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -3.420093059539795,
+      "start_index": 4,
+      "end_index": 27
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company",
+      "probability": [
+        84
+      ],
+      "start_logit": -10.250818252563477,
+      "end_logit": -3.501495599746704,
+      "start_index": 4,
+      "end_index": 20
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as",
+      "probability": [
+        85
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -3.359395980834961,
+      "start_index": 1,
+      "end_index": 14
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper",
+      "probability": [
+        86
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -3.3948240280151367,
+      "start_index": 1,
+      "end_index": 11
+    },
+    {
+      "text": "government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        87
+      ],
+      "start_logit": -10.404473304748535,
+      "end_logit": -3.4061412811279297,
+      "start_index": 1,
+      "end_index": 34
+    },
+    {
+      "text": "owned",
+      "probability": [
+        88
+      ],
+      "start_logit": -8.523455619812012,
+      "end_logit": -5.287578582763672,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner",
+      "probability": [
+        89
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -3.7181849479675293,
+      "start_index": 3,
+      "end_index": 12
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company",
+      "probability": [
+        90
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -9.715157508850098,
+      "start_index": 10,
+      "end_index": 20
+    },
+    {
+      "text": "miner Codelco as",
+      "probability": [
+        91
+      ],
+      "start_logit": -7.468019485473633,
+      "end_logit": -6.401238918304443,
+      "start_index": 12,
+      "end_index": 14
+    },
+    {
+      "text": "owned copper miner Codelco as",
+      "probability": [
+        92
+      ],
+      "start_logit": -8.523455619812012,
+      "end_logit": -5.384568214416504,
+      "start_index": 10,
+      "end_index": 14
+    },
+    {
+      "text": "copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        93
+      ],
+      "start_logit": -5.267974853515625,
+      "end_logit": -8.650289535522461,
+      "start_index": 11,
+      "end_index": 27
+    },
+    {
+      "text": "1 billion",
+      "probability": [
+        94
+      ],
+      "start_logit": -11.043570518493652,
+      "end_logit": -2.885612726211548,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "extraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        95
+      ],
+      "start_logit": -10.541522026062012,
+      "end_logit": -3.392284870147705,
+      "start_index": 7,
+      "end_index": 27
+    },
+    {
+      "text": "capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        96
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -3.6503405570983887,
+      "start_index": 8,
+      "end_index": 34
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines,",
+      "probability": [
+        97
+      ],
+      "start_logit": -10.10137939453125,
+      "end_logit": -3.8598217964172363,
+      "start_index": 3,
+      "end_index": 27
+    },
+    {
+      "text": "capitalization into state-owned copper",
+      "probability": [
+        98
+      ],
+      "start_logit": -10.291733741760254,
+      "end_logit": -3.6743874549865723,
+      "start_index": 8,
+      "end_index": 11
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019",
+      "probability": [
+        99
+      ],
+      "start_logit": -4.126288414001465,
+      "end_logit": -9.849416732788086,
+      "start_index": 10,
+      "end_index": 20
+    }
+  ],
+  "q1": [
+    {
+      "text": "copper",
+      "probability": [
+        0
+      ],
+      "start_logit": -6.926154310349375e-05,
+      "end_logit": -3.2185512282012496e-06,
+      "start_index": 11,
+      "end_index": 11
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        1
+      ],
+      "start_logit": -12.023877143859863,
+      "end_logit": -0.9979569911956787,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner",
+      "probability": [
+        2
+      ],
+      "start_logit": -6.926154310349375e-05,
+      "end_logit": -13.345738410949707,
+      "start_index": 11,
+      "end_index": 12
+    },
+    {
+      "text": "copper miner Codelco",
+      "probability": [
+        3
+      ],
+      "start_logit": -6.926154310349375e-05,
+      "end_logit": -13.767476081848145,
+      "start_index": 11,
+      "end_index": 13
+    }
+  ],
+  "q2": [
+    {
+      "text": "copper",
+      "probability": [
+        0
+      ],
+      "start_logit": -0.8875216841697693,
+      "end_logit": -6.104260683059692e-05,
+      "start_index": 11,
+      "end_index": 11
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper",
+      "probability": [
+        1
+      ],
+      "start_logit": -9.456578254699707,
+      "end_logit": -0.047735974192619324,
+      "start_index": 0,
+      "end_index": 11
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        2
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -1.500882863998413,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "Friday",
+      "probability": [
+        3
+      ],
+      "start_logit": -10.104907035827637,
+      "end_logit": -1.6679744720458984,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        4
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -1.747591257095337,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "Friday.",
+      "probability": [
+        5
+      ],
+      "start_logit": -10.104907035827637,
+      "end_logit": -1.955651879310608,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion",
+      "probability": [
+        6
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -2.091217517852783,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        7
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -2.172614336013794,
+      "start_index": 4,
+      "end_index": 13
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        8
+      ],
+      "start_logit": -10.801377296447754,
+      "end_logit": -1.7074668407440186,
+      "start_index": 4,
+      "end_index": 13
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        9
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -2.2505078315734863,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        10
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -2.300262451171875,
+      "start_index": 0,
+      "end_index": 34
+    },
+    {
+      "text": "state-owned copper miner Codelco",
+      "probability": [
+        11
+      ],
+      "start_logit": -11.285133361816406,
+      "end_logit": -1.36366605758667,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        12
+      ],
+      "start_logit": -0.8875216841697693,
+      "end_logit": -11.778665542602539,
+      "start_index": 11,
+      "end_index": 34
+    },
+    {
+      "text": ".",
+      "probability": [
+        13
+      ],
+      "start_logit": -10.473645210266113,
+      "end_logit": -2.2950644493103027,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "text": "owned copper",
+      "probability": [
+        14
+      ],
+      "start_logit": -11.549057960510254,
+      "end_logit": -1.3043698072433472,
+      "start_index": 10,
+      "end_index": 11
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        15
+      ],
+      "start_logit": -10.801377296447754,
+      "end_logit": -2.208714485168457,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        16
+      ],
+      "start_logit": -10.801377296447754,
+      "end_logit": -2.2775096893310547,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion",
+      "probability": [
+        17
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -2.875615119934082,
+      "start_index": 0,
+      "end_index": 5
+    },
+    {
+      "text": "owned copper miner Codelco",
+      "probability": [
+        18
+      ],
+      "start_logit": -11.549057960510254,
+      "end_logit": -1.6883295774459839,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper",
+      "probability": [
+        19
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -2.9922165870666504,
+      "start_index": 0,
+      "end_index": 11
+    },
+    {
+      "text": "extraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        20
+      ],
+      "start_logit": -11.616683006286621,
+      "end_logit": -1.6454845666885376,
+      "start_index": 7,
+      "end_index": 13
+    },
+    {
+      "text": "Codelco",
+      "probability": [
+        21
+      ],
+      "start_logit": -11.976696014404297,
+      "end_logit": -1.2968825101852417,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "\u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        22
+      ],
+      "start_logit": -11.863369941711426,
+      "end_logit": -1.449092984199524,
+      "start_index": 7,
+      "end_index": 13
+    },
+    {
+      "text": "$1 billion",
+      "probability": [
+        23
+      ],
+      "start_logit": -10.801377296447754,
+      "end_logit": -2.5334644317626953,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "1",
+      "probability": [
+        24
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -3.224245548248291,
+      "start_index": 4,
+      "end_index": 4
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        25
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -3.28466534614563,
+      "start_index": 4,
+      "end_index": 31
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        26
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -3.312075614929199,
+      "start_index": 0,
+      "end_index": 31
+    },
+    {
+      "text": "copper miner",
+      "probability": [
+        27
+      ],
+      "start_logit": -0.8875216841697693,
+      "end_logit": -12.710893630981445,
+      "start_index": 11,
+      "end_index": 12
+    },
+    {
+      "text": "billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        28
+      ],
+      "start_logit": -11.74683666229248,
+      "end_logit": -1.8816548585891724,
+      "start_index": 5,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        29
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -3.351256847381592,
+      "start_index": 4,
+      "end_index": 8
+    },
+    {
+      "text": "state-owned copper",
+      "probability": [
+        30
+      ],
+      "start_logit": -11.285133361816406,
+      "end_logit": -2.3449952602386475,
+      "start_index": 10,
+      "end_index": 11
+    },
+    {
+      "text": "inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        31
+      ],
+      "start_logit": -12.046963691711426,
+      "end_logit": -1.6146923303604126,
+      "start_index": 3,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner Codelco",
+      "probability": [
+        32
+      ],
+      "start_logit": -0.8875216841697693,
+      "end_logit": -12.812093734741211,
+      "start_index": 11,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        33
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -3.469067335128784,
+      "start_index": 0,
+      "end_index": 27
+    },
+    {
+      "text": "billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        34
+      ],
+      "start_logit": -11.74683666229248,
+      "end_logit": -2.042243003845215,
+      "start_index": 5,
+      "end_index": 13
+    },
+    {
+      "text": "$1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain",
+      "probability": [
+        35
+      ],
+      "start_logit": -10.801377296447754,
+      "end_logit": -3.013010025024414,
+      "start_index": 4,
+      "end_index": 31
+    },
+    {
+      "text": "state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        36
+      ],
+      "start_logit": -11.285133361816406,
+      "end_logit": -2.556471824645996,
+      "start_index": 10,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        37
+      ],
+      "start_logit": -10.277819633483887,
+      "end_logit": -3.5890583992004395,
+      "start_index": 4,
+      "end_index": 27
+    },
+    {
+      "text": "Chile",
+      "probability": [
+        38
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -3.6123695373535156,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization",
+      "probability": [
+        39
+      ],
+      "start_logit": -10.257184028625488,
+      "end_logit": -3.632704734802246,
+      "start_index": 0,
+      "end_index": 8
+    },
+    {
+      "text": "on Friday.",
+      "probability": [
+        40
+      ],
+      "start_logit": -11.659382820129395,
+      "end_logit": -2.2340569496154785,
+      "start_index": 33,
+      "end_index": 34
+    },
+    {
+      "text": "Felipe Larrain said on Friday.",
+      "probability": [
+        41
+      ],
+      "start_logit": -11.403178215026855,
+      "end_logit": -2.491551160812378,
+      "start_index": 30,
+      "end_index": 34
+    },
+    {
+      "text": "billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday.",
+      "probability": [
+        42
+      ],
+      "start_logit": -11.74683666229248,
+      "end_logit": -2.147946834564209,
+      "start_index": 5,
+      "end_index": 34
+    },
+    {
+      "text": "state-owned copper miner",
+      "probability": [
+        43
+      ],
+      "start_logit": -11.285133361816406,
+      "end_logit": -2.6104867458343506,
+      "start_index": 10,
+      "end_index": 12
+    },
+    {
+      "text": "Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        44
+      ],
+      "start_logit": -11.622377395629883,
+      "end_logit": -2.2895331382751465,
+      "start_index": 28,
+      "end_index": 34
+    }
+  ],
+  "q3": [
+    {
+      "text": "copper",
+      "probability": [
+        0
+      ],
+      "start_logit": -0.0007471282733604312,
+      "end_logit": -6.9139664446993265e-06,
+      "start_index": 11,
+      "end_index": 11
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        1
+      ],
+      "start_logit": -10.342055320739746,
+      "end_logit": -1.2051161527633667,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "state-owned copper miner Codelco",
+      "probability": [
+        2
+      ],
+      "start_logit": -11.626181602478027,
+      "end_logit": -0.7311855554580688,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "copper miner Codelco",
+      "probability": [
+        3
+      ],
+      "start_logit": -0.0007471282733604312,
+      "end_logit": -12.467885971069336,
+      "start_index": 11,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        4
+      ],
+      "start_logit": -10.342055320739746,
+      "end_logit": -2.1628565788269043,
+      "start_index": 0,
+      "end_index": 27
+    },
+    {
+      "text": "owned copper miner Codelco",
+      "probability": [
+        5
+      ],
+      "start_logit": -11.646812438964844,
+      "end_logit": -0.9450046420097351,
+      "start_index": 10,
+      "end_index": 13
+    },
+    {
+      "text": "owned copper",
+      "probability": [
+        6
+      ],
+      "start_logit": -11.646812438964844,
+      "end_logit": -0.9768980145454407,
+      "start_index": 10,
+      "end_index": 11
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper",
+      "probability": [
+        7
+      ],
+      "start_logit": -12.241337776184082,
+      "end_logit": -0.7643576860427856,
+      "start_index": 0,
+      "end_index": 11
+    },
+    {
+      "text": "\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco",
+      "probability": [
+        8
+      ],
+      "start_logit": -12.241337776184082,
+      "end_logit": -1.0554827451705933,
+      "start_index": 0,
+      "end_index": 13
+    },
+    {
+      "text": "Codelco",
+      "probability": [
+        9
+      ],
+      "start_logit": -12.777913093566895,
+      "end_logit": -0.602988064289093,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        10
+      ],
+      "start_logit": -10.342055320739746,
+      "end_logit": -3.1055049896240234,
+      "start_index": 0,
+      "end_index": 34
+    },
+    {
+      "text": "1 billion",
+      "probability": [
+        11
+      ],
+      "start_logit": -11.558821678161621,
+      "end_logit": -1.9696044921875,
+      "start_index": 4,
+      "end_index": 5
+    },
+    {
+      "text": "Chile",
+      "probability": [
+        12
+      ],
+      "start_logit": -10.342055320739746,
+      "end_logit": -3.2154483795166016,
+      "start_index": 0,
+      "end_index": 0
+    },
+    {
+      "text": "copper miner",
+      "probability": [
+        13
+      ],
+      "start_logit": -0.0007471282733604312,
+      "end_logit": -13.70397663116455,
+      "start_index": 11,
+      "end_index": 12
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines",
+      "probability": [
+        14
+      ],
+      "start_logit": -11.558821678161621,
+      "end_logit": -2.2398362159729004,
+      "start_index": 4,
+      "end_index": 27
+    },
+    {
+      "text": "lco",
+      "probability": [
+        15
+      ],
+      "start_logit": -13.053755760192871,
+      "end_logit": -0.7536811828613281,
+      "start_index": 13,
+      "end_index": 13
+    },
+    {
+      "text": "1 billion in \u201cextraordinary\u201d capitalization into state-owned copper miner Codelco as an additional boost to the company\u2019s ambitious plans to overhaul its aging mines, Finance Minister Felipe Larrain said on Friday",
+      "probability": [
+        16
+      ],
+      "start_logit": -11.558821678161621,
+      "end_logit": -2.294651985168457,
+      "start_index": 4,
+      "end_index": 34
+    },
+    {
+      "text": "Chile\u2019s government will inject $1 billion",
+      "probability": [
+        17
+      ],
+      "start_logit": -10.342055320739746,
+      "end_logit": -3.6347994804382324,
+      "start_index": 0,
+      "end_index": 5
+    }
+  ]
+}

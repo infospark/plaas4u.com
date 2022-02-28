@@ -47,6 +47,7 @@ class TestWebScraping(unittest.TestCase):
 
         links = []
 
+        # Work out how many pages were returned
         result_count_raw = driver.find_elements_by_xpath("//*[contains(text(), 'Showing :')]")[0].text
         result_count_parsed = int(re.sub(r'Showing : 1 - (.*) of ', "", result_count_raw))
         # 20 results per page by default

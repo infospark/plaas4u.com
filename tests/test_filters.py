@@ -25,18 +25,6 @@ class TestFiltersAndSorts(unittest.TestCase):
 
     all_farms = [farm_1, farm_2, farm_3]
 
-    def test_filter_by_min_and_max(self):
-        big_farms = Farms.filter_by_min_max(self.all_farms, "Size (ha)", 2000, 9999)
-        self.assertEqual(len(big_farms), 1)
-
-    def test_filter_by_min_and_max_on_none_values(self):
-        filtered_farms = Farms.filter_by_min_max(self.all_farms, "Bedrooms", 3, 99)
-        self.assertEqual(len(filtered_farms), 1)
-
-    def test_filter_by_min_and_max_on_missing_key(self):
-        filtered_farms = Farms.filter_by_min_max(self.all_farms, "Wine Yield", 3, 99)
-        self.assertEqual(len(filtered_farms), 1)
-
     def test_extract_float_should_work_with_commas(self):  # test method
         input_string = "423,543.34"
         expected_result = 423543.34
@@ -55,12 +43,12 @@ class TestFiltersAndSorts(unittest.TestCase):
         actual_result = Farms.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
 
-    def test_filter_by_price_filters_out_expensive_farms(self): # test method
+    def test_filter_by_price_filters_out_expensive_farms(self):  # test method
         maximum_price = 120000
         # we expect the filter function to just return a list that only contains farm_1
         # as it was the only one under the specified price
         expected_result = [self.farm_1]
-        actual_result = Farms.filter_by_min_max(self.all_farms, "Price (Rand)", 0,  maximum_price)
+        actual_result = Farms.filter_by_min_max(self.all_farms, "Price (Rand)", 0, maximum_price)
         self.assertEqual(actual_result, expected_result)
 
     def test_filter_by_size_filters_out_small_farms(self):
@@ -89,3 +77,52 @@ class TestFiltersAndSorts(unittest.TestCase):
         expected_result = 0
         actual_result = Farms.extract_float_from_string(input_string)
         self.assertEqual(actual_result, expected_result)
+
+    def test_get_wine_farms_from_json(self):
+        farms = Farms.get_wine_farms(Farms.get_farm_from_json())
+        self.assertEqual(len(farms), 14)
+
+    def test_convert_properties_json_to_geojson(self):
+        farms = Farms.get_farm_from_json()
+        geo_json_features = []
+        for k,farm in farms.items():
+            if 'computed_location' in farm:
+                title = "Wine Farm For Sale" if "wine" in farm else "Farm For Sale"
+                body = ""
+                if 'size' in farm and 'hectares' in farm['size']:
+                    body = body + f"<p>Size Ha: {farm['size']['hectares']}</p>"
+
+                if 'price' in farm and 'rand' in farm['price']:
+                    body = body + f"<p>Price Rand: {farm['price']['rand']}</p>"
+
+                if 'wine' in farm:
+                    farm_wine = farm['wine']
+                    if 'hectares' in farm_wine:
+                        body = body + f"<p>Hectares Vines: {farm_wine['hectares']}</p>"
+                    if 'type' in farm_wine:
+                        body = body + f"<p>Vine Types: {farm_wine['type']}</p>"
+                    if 'tonne' in farm_wine:
+                        body = body + f"<p>Wine Yield (Tonnes): {farm_wine['tonne']}</p>"
+
+                feature = {
+                    "type": "Feature",
+                    "properties": {
+                        "description": f"<a href='{farm['href']}'>{title}</a><p>{body}</p>",
+                        "icon": "wine" if "wine" in farm else "orange"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            farm['computed_location'][1],
+                            farm['computed_location'][0]
+                        ]
+                    }
+                }
+                geo_json_features.append(feature)
+
+
+        import json
+        with open(
+                f'../plaas4u_app/static/geojson.json',
+                "w") as rw_file:
+            json.dump(geo_json_features, rw_file)
